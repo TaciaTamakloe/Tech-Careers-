@@ -1,0 +1,147 @@
+/* CONTACT PAGE CUSTOM STYLES */
+/* Font and color balance complements Tailwind’s design */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+header h1 {
+  letter-spacing: 1px;
+  color: #1e293b; /* Slate gray for premium look */
+}
+
+/* Navigation links */
+nav a {
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+nav a:hover {
+  color: #2563eb; /* Tailwind blue */
+  transform: translateY(-2px);
+}
+
+/* Hero Section */
+section.bg-gray-50 {
+  background: linear-gradient(to bottom right, #f9fafb, #f3f4f6);
+  border-bottom: 1px solid #e5e7eb;
+}
+
+section.bg-gray-50 h2 {
+  color: #111827;
+}
+
+section.bg-gray-50 p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+/* Form Section */
+form {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+form input,
+form textarea {
+  transition: all 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus {
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3);
+}
+
+/* Submit Button */
+form button {
+  background: linear-gradient(90deg, #2563eb, #1d4ed8);
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(90deg, #1d4ed8, #2563eb);
+}
+
+/* Contact Info Section */
+.text-gray-700 p {
+  display: flex;
+  align-items: center;
+  font-size: 0.95rem;
+}
+
+.text-gray-700 i {
+  font-size: 1.1rem;
+}
+
+/* Social Icons */
+.flex.space-x-4 i {
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.flex.space-x-4 i:hover {
+  transform: scale(1.2);
+}
+
+/* Footer */
+footer {
+  background-color: #0f172a; /* Dark navy */
+}
+
+footer h4 {
+  color: #f8fafc;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+footer a {
+  color: #cbd5e1;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  section.bg-gray-50 h2 {
+    font-size: 2rem;
+  }
+
+  form {
+    padding: 0.5rem;
+  }
+}
+
+/* Animation for Page Fade-in */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+body {
+  animation: fadeIn 0.7s ease-in-out;
+}

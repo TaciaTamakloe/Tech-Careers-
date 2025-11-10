@@ -1,0 +1,173 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* General body styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  color: #1f2937; /* Tailwind's gray-800 */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  border-bottom: 1px solid #e5e7eb; /* gray-200 */
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+/* Navigation menu */
+nav a {
+  color: #4b5563; /* gray-600 */
+  margin: 0 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #2563eb; /* blue-600 */
+}
+
+nav a.active {
+  color: #2563eb;
+  font-weight: 600;
+}
+
+/* Hero section */
+section.hero {
+  background-color: #f9fafb; /* gray-50 */
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+section.hero h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+section.hero p {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #6b7280; /* gray-500 */
+  line-height: 1.6;
+}
+
+/* Our Story section */
+section.story {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+section.story img {
+  width: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+section.story h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+section.story p {
+  color: #4b5563; /* gray-600 */
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+/* Mission section */
+section.mission {
+  background-color: #f9fafb;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+section.mission h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+section.mission p {
+  color: #4b5563;
+  line-height: 1.6;
+  margin-bottom: 0.8rem;
+}
+
+/* Team section */
+section.team {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+section.team h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+section.team .member {
+  display: inline-block;
+  margin: 1rem 2rem;
+}
+
+section.team img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 9999px;
+  object-fit: cover;
+  margin-bottom: 0.75rem;
+}
+
+section.team p {
+  margin: 0;
+  color: #374151; /* gray-700 */
+}
+
+/* Footer */
+footer {
+  background-color: #111827; /* gray-900 */
+  color: #d1d5db; /* gray-300 */
+  padding: 3rem 2rem;
+  font-size: 0.875rem;
+}
+
+footer h4 {
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+footer a {
+  color: #d1d5db;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
+
+footer p {
+  color: #9ca3af; /* gray-400 */
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.75rem;
+}

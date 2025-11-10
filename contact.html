@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Bookshop</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Header -->
+  <header class="flex justify-between items-center py-6 px-8 border-b">
+    <h1 class="text-2xl font-bold tracking-wide">BOOKSHOP</h1>
+    <nav class="hidden md:flex space-x-8 text-gray-600 font-medium">
+      <a href="index.html" class="hover:text-blue-600">Home</a>   
+      <a href="about.html" class="hover:text-blue-600">About Us</a>
+      <a href="contact.html" class="text-blue-600 font-semibold">Contact</a>
+      
+    </nav>
+    <div class="flex space-x-4 text-gray-600">
+      <i class="fa-solid fa-user"></i>
+      <i class="fa-solid fa-heart"></i>
+      <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gray-50 py-20 text-center px-6">
+    <h2 class="text-5xl font-bold mb-4">Get in Touch</h2>
+    <p class="text-gray-600 max-w-2xl mx-auto">
+      We'd love to hear from you! Whether you have a question about our books, shipping, or anything else, 
+      our team is ready to help.
+    </p>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="max-w-5xl mx-auto px-8 py-16 grid md:grid-cols-2 gap-12">
+    <div>
+      <h3 class="text-3xl font-semibold mb-4">Send Us a Message</h3>
+      <p class="text-gray-600 mb-6">
+        Fill out the form below and we'll get back to you as soon as possible.
+      </p>
+
+      <form class="space-y-4">
+        <div class="grid grid-cols-2 gap-4">
+          <input type="text" placeholder="First Name" class="border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-400" />
+          <input type="text" placeholder="Last Name" class="border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-400" />
+        </div>
+        <input type="email" placeholder="Email Address" class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-400" />
+        <input type="text" placeholder="Subject" class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-400" />
+        <textarea placeholder="Your Message" rows="5" class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-400"></textarea>
+        <button type="submit" class="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition">Send Message</button>
+      </form>
+    </div>
+
+    <div class="space-y-8">
+      <h3 class="text-3xl font-semibold mb-4">Contact Information</h3>
+      <p class="text-gray-600">
+        Have a question or just want to say hi? Reach out using the info below.
+      </p>
+
+      <div class="space-y-4 text-gray-700">
+        <p><i class="fa-solid fa-location-dot text-blue-600 mr-2"></i> 123 Library Avenue, Accra, Ghana</p>
+        <p><i class="fa-solid fa-phone text-blue-600 mr-2"></i> +233 20 123 4567</p>
+        <p><i class="fa-solid fa-envelope text-blue-600 mr-2"></i> support@bookshop.com</p>
+      </div>
+
+      <div class="flex space-x-4 mt-6">
+        <a href="#"><i class="fa-brands fa-facebook-f text-gray-500 hover:text-blue-600 text-xl"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter text-gray-500 hover:text-blue-600 text-xl"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram text-gray-500 hover:text-pink-600 text-xl"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 py-8">
+    <div class="max-w-6xl mx-auto px-8 grid grid-cols-2 md:grid-cols-4 gap-6 text-sm">
+      <div>
+        <h4 class="text-white font-semibold mb-3">Customer Service</h4>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:text-white">Help Center</a></li>
+          <li><a href="#" class="hover:text-white">Returns</a></li>
+          <li><a href="#" class="hover:text-white">Track Order</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-3">About Us</h4>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:text-white">Our Story</a></li>
+          <li><a href="#" class="hover:text-white">Careers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-3">Policies</h4>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:text-white">Privacy Policy</a></li>
+          <li><a href="#" class="hover:text-white">Terms & Conditions</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-3">Follow Us</h4>
+        <div class="flex space-x-4">
+          <i class="fa-brands fa-facebook-f hover:text-white"></i>
+          <i class="fa-brands fa-twitter hover:text-white"></i>
+          <i class="fa-brands fa-instagram hover:text-white"></i>
+        </div>
+      </div>
+    </div>
+    <p class="text-center text-xs text-gray-400 mt-6">© 2025 Bookshop. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
